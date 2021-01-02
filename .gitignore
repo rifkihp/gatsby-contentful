@@ -1,0 +1,15 @@
+_site
+.DS_Store
+.jekyll
+.jekyll-metadata
+.bundle
+.sass-cache
+Gemfile
+Gemfile.lock
+node_modules
+package-lock.json
+.cache
+public
+yarn-error.log
+.env
+.env.development

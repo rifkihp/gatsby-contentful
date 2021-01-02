@@ -1,0 +1,58 @@
+@import "fonts";
+@import "variables";
+@import "base";
+@import "components/header";
+@import "components/article";
+@import "components/cobalt2";
+@import "components/footer";
+@import "components/linksfooter";
+@import "components/fourOfour";
+@import "components/about";
+@import "components/contact";
+@import "components/courses";
+
+@media (min-width: 950px) {
+  .article {
+    display: grid;
+  }
+	.grid {
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-gap: 2em 2em;
+    margin: 0 auto;
+	}
+	.main-content {
+		grid-column: 3/11;
+		grid-row: 2;
+    padding: 10px;
+	}
+}
+@media (max-width: 1024px){
+  .main-content {
+    padding: 1em 1em;
+    margin-top: auto;
+    font-size: calc(16px + .2vw);
+  }
+}
+@media (min-width: 1024px) {
+	.logo {
+		grid-column: 2/3;
+	}
+	.main-nav__list {
+		display: flex;
+	}
+}
+p {
+  margin: 10px 0;
+}
+:focus {
+  outline-style: dashed;
+  outline-width: 3px;
+  outline-offset: 2px;
+  outline-color: $khaled_green;
+}
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: 0;
+}

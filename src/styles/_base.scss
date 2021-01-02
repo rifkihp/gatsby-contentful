@@ -1,0 +1,130 @@
+li {
+  margin: 0.5em 0px;
+}
+table {
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 640px;
+  /* Table reset stuff */
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  border: 0 none;
+  height: 30px;
+}
+
+th {
+  /* Gradient Background */
+  background: linear-gradient(#333 0%, #444 100%);
+  color: #fff;
+  font-weight: bold;
+  height: 40px;
+}
+
+td {
+  background: #fafafa;
+  text-align: left;
+  padding: 1em;
+}
+
+/* Zebra Stripe Rows */
+
+tr:nth-child(even) td {
+  background: #eee;
+}
+tr:nth-child(odd) td {
+  background: #fdfdfd;
+}
+
+/* First-child blank cells! */
+tr td:first-child,
+tr th:first-child {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: right;
+  padding-right: 10px;
+  width: 7em;
+  border-radius: 5px 0 0 0;
+}
+
+tr:first-child th:last-child {
+  border-radius: 0 5px 0 0;
+}
+
+dl {
+  font-size: 20px;
+}
+
+p {
+  margin: 1.75em 0 2em;
+}
+
+p:first-of-type {
+  margin-top: 0;
+}
+
+audio {
+  margin: 30px 0;
+  display: block;
+}
+
+button,
+input,
+select {
+  font-family: Tahoma, sans-serif;
+}
+
+ol,
+p,
+ul {
+  margin-bottom: 1em;
+}
+
+li {
+  margin: 0.5em 0;
+}
+
+strong {
+  font-weight: 700;
+}
+
+ol,
+ul {
+  padding-left: 2.5em;
+}
+
+ol {
+  list-style-type: decimal-leading-zero;
+  list-style-color: #000;
+}
+
+ul {
+  list-style: disc;
+}
+
+@media all and (max-width: 768px) {
+  ol,
+  ul {
+    padding-left: 1.5em;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+blockquote {
+  padding: 0;
+  margin: 2em 0;
+  color: #444;
+  font-weight: bold;
+  font-size: 1.2em;
+  border-left: 10px solid $khaled_green;
+  padding-left: 1em;
+  position: relative;
+  left: calc(-1em - 10px);
+  background: #f9f9f9;
+}
