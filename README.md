@@ -1,5 +1,5 @@
-# khaledgarbaya.net
-My personal website built using [Gatsby](https://www.gatsbyjs.org/) and [Contentful](https://www.contentful.org/)
+# gatsby-contentful
+this website built using [Gatsby](https://www.gatsbyjs.org/) and [Contentful](https://www.contentful.org/)
 
 
 Install dependencies:
