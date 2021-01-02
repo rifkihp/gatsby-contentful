@@ -22,7 +22,7 @@ const Footer = () => (
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="https://github.com/Khaledgarbaya/khaled-garbaya.net"
+        href="https://github.com/rifkihp/gatsby-contentful"
       >
         Github
       </a>
