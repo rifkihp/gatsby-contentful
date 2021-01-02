@@ -84,10 +84,10 @@ const IndexPage = ({data, location}) => {
         <div className="p-8 mx-auto flex justify-between items-center flex-wrap-reverse">
           <div className="w-full mt-6 md:w-2/3 px-8">
             <h1 className="text-2xl sm:text-5xl font-extrabold">
-              {process.env.RIFKI_HP_NAME}
+              Rifki Heruprasetyo
             </h1>
             <p className="text-lg">
-              {process.env.RIFKI_HP_TAG}
+              I build real projects from start to finish using the JAMStack, and I teach you how to do build it along the way
             </p>
 
             <InlineSignupForm />
