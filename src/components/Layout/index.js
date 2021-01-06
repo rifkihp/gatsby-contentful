@@ -56,7 +56,7 @@ const Layout = ({children, location}) => (
         },
         {
           name: 'google-site-verification',
-          content: 'zp4OdPQ61W55uBbO8wze4ZEtQDQTAcBhPT76xoNW_VA',
+          content: 'ThWsoPCoJOmxLMXsbiUzz18KpCTtN37FmTim1vOKDnQ',
         },
       ]}
     />
